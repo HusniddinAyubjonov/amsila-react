@@ -2,4 +2,35 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+mark {
+  background-color: transparent;
+  color: #336667;
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
 }

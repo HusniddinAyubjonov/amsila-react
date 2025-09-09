@@ -1,0 +1,226 @@
+/* Фиксированный Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}
+
+/* Центрированный контейнер */
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Лого */
+.logo {
+  height: 48px;
+}
+
+/* Кнопка бургер-меню */
+.menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menuButton img {
+  width: 48px;
+  height: 48px;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1500;
+}
+
+/* Выезжающее меню */
+.menuBurger {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 366px;
+  height: 100vh;
+  background-color: white;
+  z-index: 2000;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Анимации */
+.slideIn {
+  animation: slideIn 0.3s forwards;
+}
+
+.slideOut {
+  animation: slideOut 0.3s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* Заголовок меню */
+.menuHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+}
+
+.menuHeader img {
+  height: 32px;
+}
+
+.menuHeader button img {
+  width: 32px;
+  height: 32px;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.closeButton img {
+  width: 48px;
+  height: 48px;
+}
+
+/* Список меню */
+.menuBurger ul {
+  margin-top: 40px;
+}
+
+.menuBurger li {
+  font-size: 30px;
+  margin-bottom: 14px;
+  font-weight: 300;
+  color: black;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.menuBurger li:hover {
+  color: #00796b;
+}
+
+/* Ссылки */
+a {
+  text-decoration: none;
+}
+
+/* ========== Адаптивность ========== */
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .menuButton img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menuBurger {
+    width: 320px;
+    padding: 24px;
+  }
+
+  .closeButton img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menuBurger li {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menuBurger {
+    width: 100%; /* ширина меню на мобилках */
+    padding: 0; /* убрать паддинги */
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .menuBurger .container {
+    max-width: 320px; /* ограничиваем контейнер */
+    padding: 20px; /* паддинги для контента */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menuBurger {
+    width: 300px;
+    padding: 20px;
+  }
+
+  .menuHeader {
+    max-width: 100%; /* убрать ограничение */
+  }
+
+  .logo {
+    height: 32px;
+  }
+
+  .menuButton img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .menuHeader img {
+    height: 28px;
+  }
+
+  .menuHeader button img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .closeButton img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .menuBurger li {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
