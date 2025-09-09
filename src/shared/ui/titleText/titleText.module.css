@@ -1,0 +1,108 @@
+@import url("/src/index.css");
+
+.TitleText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TitleText span {
+  position: relative;
+}
+
+.TitleText span img {
+  position: absolute;
+  top: 0;
+  left: 250px;
+}
+
+.TitleText span h1 {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  width: 461px;
+}
+
+.TitleText p {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  width: 552px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .TitleText {
+    display: flex;
+  }
+
+  .TitleText span img {
+    width: 180px;
+    height: 180px;
+    left: 144px;
+  }
+
+  .TitleText span h1 {
+    font-size: 44px;
+    width: 320px;
+  }
+
+  .TitleText p {
+    font-size: 20px;
+    width: 520px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .TitleText {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .TitleText span img {
+    width: 140px;
+    height: 140px;
+    left: 166px;
+    top: 36px;
+  }
+
+  .TitleText span h1 {
+    font-size: 36px;
+    width: 260px;
+  }
+
+  .TitleText p {
+    font-size: 16px;
+    width: 320px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .TitleText {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .TitleText span img {
+    width: 140px;
+    height: 140px;
+    left: 166px;
+    top: 36px;
+  }
+
+  .TitleText span h1 {
+    font-size: 36px;
+    width: 260px;
+  }
+
+  .TitleText p {
+    font-size: 16px;
+    width: 320px;
+    margin-top: 20px;
+  }
+}

@@ -12,7 +12,7 @@
 .container {
   max-width: 1128px;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -145,6 +145,8 @@ a {
 @media (max-width: 1024px) {
   .container {
     max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
   }
 
   .logo {
@@ -182,9 +184,15 @@ a {
 
   .menuBurger .container {
     max-width: 320px; /* ограничиваем контейнер */
-    padding: 20px; /* паддинги для контента */
+    padding: 20px; /* падди?нги для контента */
     display: flex;
     flex-direction: column;
+  }
+
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 16px 0;
   }
 
   .menuBurger {
