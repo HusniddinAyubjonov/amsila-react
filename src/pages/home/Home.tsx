@@ -1,4 +1,5 @@
 import Navbar from "../../shared/ui/navbar/Navbar";
+import Partners from "../../shared/ui/partners/Partners";
 import TitleText from "../../shared/ui/titleText/TitleText";
 import Slider from "./slider/Slider";
 import Team from "./team/Team";
@@ -16,6 +17,7 @@ export default function Home() {
       </div>
       <Slider/>
       <Team/>
+      <Partners/>
     </div>
   );
 }
