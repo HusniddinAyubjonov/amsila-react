@@ -1,0 +1,142 @@
+@import url("/src/index.css");
+
+.container2 {
+  position: relative;
+  display: flex;
+  height: 659px;
+  width: 100%;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.infoBox {
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  left: 156px;
+  top: 77px;
+  width: 455px;
+  height: 390px;
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 120%;
+}
+
+.contact {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  margin-top: 42px;
+}
+
+.icons {
+  display: flex;
+  gap: 24px;
+  margin-top: 42px;
+}
+
+.icons img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.icons img:hover {
+  opacity: 0.7;
+}
+
+.map {
+  width: 100%;
+  height: 659px; /* десктоп */
+}
+
+.contact a {
+  color: black;
+}
+
+/* ——— 📱 Планшеты ——— */
+@media (max-width: 1024px) {
+  .infoBox {
+    left: 60px;
+    top: 60px;
+    width: 366px;
+    height: auto;
+    padding: 32px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .contact {
+    font-size: 18px;
+    margin-top: 32px;
+  }
+
+  .icons {
+    gap: 20px;
+    margin-top: 32px;
+  }
+
+  .icons img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .map {
+    height: 500px;
+  }
+}
+
+/* ——— 📱 Мобильные ——— */
+@media (max-width: 768px) {
+  .container2 {
+    flex-direction: column;
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .infoBox {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: auto;
+    margin: 0 auto 24px auto;
+    padding: 24px;
+    box-shadow: none;
+    z-index: 1;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .contact {
+    font-size: 16px;
+    margin-top: 24px;
+  }
+
+  .icons {
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .icons img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .map {
+    height: 360px;
+  } 
+}

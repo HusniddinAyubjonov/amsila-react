@@ -1,4 +1,5 @@
 import Certificate from "../../shared/ui/certificates/Certificate";
+import MapComponent from "../../shared/ui/map/Map";
 import Navbar from "../../shared/ui/navbar/Navbar";
 import Partners from "../../shared/ui/partners/Partners";
 import TitleText from "../../shared/ui/titleText/TitleText";
@@ -20,6 +21,7 @@ export default function Home() {
       <Team/>
       <Partners/>
       <Certificate/>
+      <MapComponent/>
     </div>
   );
 }
