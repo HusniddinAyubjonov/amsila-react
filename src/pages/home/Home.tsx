@@ -1,3 +1,4 @@
+import Certificate from "../../shared/ui/certificates/Certificate";
 import Navbar from "../../shared/ui/navbar/Navbar";
 import Partners from "../../shared/ui/partners/Partners";
 import TitleText from "../../shared/ui/titleText/TitleText";
@@ -18,6 +19,7 @@ export default function Home() {
       <Slider/>
       <Team/>
       <Partners/>
+      <Certificate/>
     </div>
   );
 }
