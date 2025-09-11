@@ -3,6 +3,7 @@
 .TitleText {
   display: flex;
   justify-content: space-between;
+  margin-top: 80px;
 }
 
 .TitleText span {
@@ -38,6 +39,7 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   .TitleText {
     display: flex;
+    margin-top: 60px;
   }
 
   .TitleText span img {
@@ -61,6 +63,7 @@
   .TitleText {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
   }
 
   .TitleText span img {
@@ -86,6 +89,7 @@
   .TitleText {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
   }
 
   .TitleText span img {

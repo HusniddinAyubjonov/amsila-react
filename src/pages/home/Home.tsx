@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Header/>
       <Navbar />
-      <div style={{ marginTop: "120px" }}>
+      <div>
         <TitleText
           title="Гармония"
           titleGreen="идей и инноваций"

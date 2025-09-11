@@ -1,0 +1,96 @@
+@import url("/src/index.css");
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin-top: 60px;
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 90px;
+  line-height: 130%;
+  letter-spacing: -5%;
+}
+
+.subtitle {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.subtitle1 {
+  width: 300px;
+}
+
+.subtitle2 {
+  width: 264px;
+}
+
+.subtitle3 {
+  width: 400px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .title {
+    font-size: 64px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .subtitle1 {
+    width: 280px;
+  }
+
+  .subtitle2 {
+    width: 240px;
+  }
+
+  .subtitle3 {
+    width: 340px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .title {
+    font-size: 58px;
+  }
+
+  .subtitle1,
+  .subtitle2,
+  .subtitle3 {
+    width: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .title {
+    font-size: 58px;
+  }
+
+  .subtitle1,
+  .subtitle2,
+  .subtitle3 {
+    width: 320px;
+  }
+}
