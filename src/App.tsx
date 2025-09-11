@@ -4,6 +4,7 @@ import Load from "./Load";
 
 // Lazy load the Home component
 const Home = lazy(() => import("./pages/home/Home"));
+const Architecture = lazy(() => import("./pages/architecture/Architecture"));
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Suspense fallback={<Load />}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/architecture" element={<Architecture />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

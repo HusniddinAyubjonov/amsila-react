@@ -1,0 +1,27 @@
+@import url("/src/index.css");
+@import url("/src/shared/ui/banners/banners.module.css");
+
+.banner {
+  background-position: center center;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .banner {
+    height: 480px;
+    background-position: center center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .banner {
+    height: 480px;
+    background-position: center center;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    height: 480px;
+    background-position: center center;
+  }
+}
