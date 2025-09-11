@@ -6,6 +6,8 @@ import Banners from "../../shared/ui/banners/Banners";
 import banner from "../../assets/images/architecture/bannerArch.jpg";
 import textImg from "../../shared/icon/architectureTxt.svg";
 import OurExperience from "../../shared/ui/OurExperience/OurExperience";
+import MapComponent from "../../shared/ui/map/Map";
+import Projects from "./projects/Projects";
 
 export default function Architecture() {
   return (
@@ -25,8 +27,10 @@ export default function Architecture() {
         <OurExperience />
       </div>
       <Navbar />
+      <Projects/>
       <Partners />
       <Certificate />
+      <MapComponent/>
     </div>
   );
 }
