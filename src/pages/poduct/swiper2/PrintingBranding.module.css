@@ -1,0 +1,654 @@
+/* === Ваш исходный стиль (исправлено!) === */
+.all_carousell {
+  width: 100%;
+  padding: 100px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  /* gap: 40px; */
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousell_header_button {
+  display: flex;
+  justify-content: space-between;
+  width: 1128px;
+  margin: 0 auto;
+}
+
+.test_color_carousel_title {
+  color: #000000;
+}
+
+.idea_title_2 {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+
+.vektor_button {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.vektor_button button {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  transition: opacity 0.3s ease;
+}
+
+.vektor_button img:hover {
+  opacity: 0.8;
+}
+
+/* ✅ ИСПРАВЛЕНО: card-product → card_product */
+.card_product {
+  display: flex;
+  flex-direction: column;
+}
+
+.top_card {
+  width: 360px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  background: #2637600d;
+  overflow: hidden;
+  border-radius: 32px;
+}
+
+.card_text {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+
+/* === Новые стили для Swiper === */
+.carousel_wrapper {
+  overflow-x: visible;
+  position: relative;
+}
+
+.endless {
+  display: flex !important;
+  gap: 24px !important;
+  margin-left: 156px !important;
+  margin-top: 40px !important;
+  padding-bottom: 20px;
+}
+
+/* Стили для кнопок навигации Swiper */
+.swiper_button_prev,
+.swiper_button_next {
+  width: 24px;
+  height: 24px;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 10;
+}
+
+.swiper-button-prev::before,
+.swiper-button-next::before {
+  content: "" !important;
+}
+
+.custom_prev img,
+.custom_next img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Скрыть стандартные стрелки Swiper */
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+/* Показываем только кастомные */
+.custom_prev,
+.custom_next {
+  display: flex !important;
+}
+
+/* === Преобразованные стили из id в классы === */
+/* === Стили по индексу: от .img_0 до .img_21 === */
+
+.img_0 {
+  width: 265px;
+  height: 239px;
+}
+
+.img_1 {
+  width: 190px;
+  height: 226px;
+}
+
+.img_2 {
+  width: 270px;
+  height: 212px;
+}
+
+.img_3 {
+  width: 270px;
+  height: 173px;
+}
+
+.img_4 {
+  width: 250px;
+  height: 183px;
+}
+
+.img_5 {
+  width: 200px;
+  height: 209px;
+}
+
+.img_6 {
+  width: 120px;
+  height: 260px;
+}
+
+.img_7 {
+  width: 220px;
+  height: 214px;
+}
+
+.img_8 {
+  width: 220px;
+  height: 179px;
+}
+
+.img_9 {
+  width: 80px;
+  height: 290px;
+  transform: rotate(30deg);
+}
+
+.img_10 {
+  width: 175px;
+  height: 250px;
+}
+
+.img_11 {
+  width: 200px;
+  height: 241px;
+}
+
+.img_12 {
+  width: 205px;
+  height: 191px;
+}
+
+.img_13 {
+  width: 250px;
+  height: 155px;
+}
+
+.img_14 {
+  width: 250px;
+  height: 241px;
+}
+
+.img_15 {
+  width: 230px;
+  height: 217px;
+}
+
+.img_16 {
+  width: 250px;
+  height: 173px;
+}
+
+.img_17 {
+  width: 165px;
+  height: 282px;
+}
+
+.img_18 {
+  width: 270px;
+  height: 198px;
+}
+
+.img_19 {
+  width: 300px;
+  height: 202px;
+}
+
+.img_20 {
+  width: 270px;
+  height: 210px;
+}
+
+/* Адаптивность */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .carousell_header_button {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  .endless {
+    display: flex !important;
+    gap: 24px !important;
+    margin-left: 50px !important;
+    margin-top: 40px !important;
+    padding-bottom: 20px;
+  }
+
+  .idea_title_2 {
+    font-size: 56px;
+  }
+
+  .card_text {
+    font-size: 18px;
+  }
+
+  .top_card {
+    width: 300px;
+    height: 300px;
+  }
+
+  .img_0 {
+    width: 200px;
+    height: auto;
+  }
+
+  .img_1 {
+    width: 145px;
+    height: auto;
+  }
+
+  .img_2 {
+    width: 210px;
+    height: auto;
+  }
+
+  .img_3 {
+    width: 210px;
+    height: auto;
+  }
+
+  .img_4 {
+    width: 210px;
+    height: auto;
+  }
+
+  .img_5 {
+    width: 175px;
+    height: auto;
+  }
+
+  .img_6 {
+    width: 100px;
+    height: auto;
+  }
+
+  .img_7 {
+    width: 190px;
+    height: auto;
+  }
+
+  .img_8 {
+    width: 190px;
+    height: auto;
+  }
+
+  .img_9 {
+    width: 75px;
+    height: auto;
+  }
+
+  .img_10 {
+    width: 150px;
+    height: auto;
+  }
+
+  .img_11 {
+    width: 185px;
+    height: auto;
+  }
+
+  .img_12 {
+    width: 161px;
+    height: auto;
+  }
+
+  .img_13 {
+    width: 190px;
+    height: auto;
+  }
+
+  .img_14 {
+    width: 200px;
+    height: auto;
+  }
+
+  .img_15 {
+    width: 200px;
+    height: auto;
+  }
+
+  .img_16 {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .img_17 {
+    width: 145px;
+    height: auto;
+  }
+
+  .img_18 {
+    width: 230px;
+    height: auto;
+  }
+
+  .img_19 {
+    width: 230px;
+    height: auto;
+  }
+
+  .img_20 {
+    width: 230px;
+    height: auto;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .carousell_header_button {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .endless {
+    display: flex !important;
+    gap: 24px !important;
+    margin-left: 20px !important;
+    margin-top: 40px !important;
+    padding-bottom: 20px;
+  }
+
+  .vektor_button {
+    display: none;
+  }
+
+  .idea_title_2 {
+    font-size: 36px;
+  }
+
+  .card_text {
+    font-size: 15px;
+  }
+
+  .top_card {
+    width: 236px;
+    height: 236px;
+  }
+
+  .img_0 {
+    width: 150px;
+    height: 135px;
+  }
+
+  .img_1 {
+    width: 115px;
+    height: 137px;
+  }
+
+  .img_2 {
+    width: 150px;
+    height: 118px;
+  }
+
+  .img_3 {
+    width: 160px;
+    height: 102px;
+  }
+
+  .img_4 {
+    width: 150px;
+    height: 110px;
+  }
+
+  .img_5 {
+    width: 140px;
+    height: 147px;
+  }
+
+  .img_6 {
+    width: 85px;
+    height: 184px;
+  }
+
+  .img_7 {
+    width: 150px;
+    height: 146px;
+  }
+
+  .img_8 {
+    width: 150px;
+    height: 122px;
+  }
+
+  .img_9 {
+    width: 55px;
+    height: 200px;
+    transform: rotate(30deg);
+  }
+
+  .img_10 {
+    width: 124px;
+    height: 177px;
+  }
+
+  .img_11 {
+    width: 150px;
+    height: 181px;
+  }
+
+  .img_12 {
+    width: 138px;
+    height: 129px;
+  }
+
+  .img_13 {
+    width: 150px;
+    height: 93px;
+  }
+
+  .img_14 {
+    width: 150px;
+    height: 145px;
+  }
+
+  .img_15 {
+    width: 150px;
+    height: 141px;
+  }
+
+  .img_16 {
+    width: 150px;
+    height: 104px;
+  }
+
+  .img_17 {
+    width: 110px;
+    height: 188px;
+  }
+
+  .img_18 {
+    width: 180px;
+    height: 132px;
+  }
+
+  .img_19 {
+    width: 180px;
+    height: 121px;
+  }
+
+  .img_20 {
+    width: 170px;
+    height: 132px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousell_header_button {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .endless {
+    display: flex !important;
+    gap: 24px !important;
+    margin-left: 20px !important;
+    margin-top: 40px !important;
+    padding-bottom: 20px;
+  }
+
+  .vektor_button {
+    display: none;
+  }
+
+  .idea_title_2 {
+    font-size: 36px;
+  }
+
+  .card_text {
+    font-size: 15px;
+  }
+
+  .top_card {
+    width: 236px;
+    height: 236px;
+  }
+
+  .img_0 {
+    width: 150px;
+    height: 135px;
+  }
+
+  .img_1 {
+    width: 115px;
+    height: 137px;
+  }
+
+  .img_2 {
+    width: 150px;
+    height: 118px;
+  }
+
+  .img_3 {
+    width: 160px;
+    height: 102px;
+  }
+
+  .img_4 {
+    width: 150px;
+    height: 110px;
+  }
+
+  .img_5 {
+    width: 140px;
+    height: 147px;
+  }
+
+  .img_6 {
+    width: 85px;
+    height: 184px;
+  }
+
+  .img_7 {
+    width: 150px;
+    height: 146px;
+  }
+
+  .img_8 {
+    width: 150px;
+    height: 122px;
+  }
+
+  .img_9 {
+    width: 55px;
+    height: 200px;
+    transform: rotate(30deg);
+  }
+
+  .img_10 {
+    width: 124px;
+    height: 177px;
+  }
+
+  .img_11 {
+    width: 150px;
+    height: 181px;
+  }
+
+  .img_12 {
+    width: 138px;
+    height: 129px;
+  }
+
+  .img_13 {
+    width: 150px;
+    height: 93px;
+  }
+
+  .img_14 {
+    width: 150px;
+    height: 145px;
+  }
+
+  .img_15 {
+    width: 150px;
+    height: 141px;
+  }
+
+  .img_16 {
+    width: 150px;
+    height: 104px;
+  }
+
+  .img_17 {
+    width: 110px;
+    height: 188px;
+  }
+
+  .img_18 {
+    width: 180px;
+    height: 132px;
+  }
+
+  .img_19 {
+    width: 180px;
+    height: 121px;
+  }
+
+  .img_20 {
+    width: 170px;
+    height: 132px;
+  }
+}

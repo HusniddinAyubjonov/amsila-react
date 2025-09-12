@@ -8,6 +8,9 @@ import MapComponent from "../../shared/ui/map/Map";
 import banner from "../../assets/images/product/bannerProduct.jpg";
 import textImg from "../../shared/icon/productTxt.svg";
 import OutdoorAdvertisingCarousel from "./swiper/OutdoorAdvertisingCarousel";
+import PrintingBranding from "./swiper2/PrintingBranding";
+import Posm from "./swiper3/Posm";
+import Expo from "./swiper4/Expo";
 
 export default function Product() {
   return (
@@ -27,6 +30,9 @@ export default function Product() {
           <OurExperience />
         </div>
          <OutdoorAdvertisingCarousel/>
+         <PrintingBranding/>
+         <Posm/>
+         <Expo/>
         <Partners />
         <Certificate />
         <MapComponent />
