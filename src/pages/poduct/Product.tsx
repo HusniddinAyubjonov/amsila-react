@@ -7,6 +7,7 @@ import Certificate from "../../shared/ui/certificates/Certificate";
 import MapComponent from "../../shared/ui/map/Map";
 import banner from "../../assets/images/product/bannerProduct.jpg";
 import textImg from "../../shared/icon/productTxt.svg";
+import OutdoorAdvertisingCarousel from "./swiper/OutdoorAdvertisingCarousel";
 
 export default function Product() {
   return (
@@ -25,6 +26,7 @@ export default function Product() {
           />
           <OurExperience />
         </div>
+         <OutdoorAdvertisingCarousel/>
         <Partners />
         <Certificate />
         <MapComponent />
