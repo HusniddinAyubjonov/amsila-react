@@ -12,11 +12,11 @@ import Projects from "./projects/Projects";
 export default function Architecture() {
   return (
     <div>
+      <Navbar />
       <Banners
         bannerUrl={banner}
         textImg={textImg}
-        title="Каждая линия проекта — шаг к гармонии. Архитектура, которая чувствует и понимает вас
-"
+        title="Каждая линия проекта — шаг к гармонии. Архитектура, которая чувствует и понимает вас"
       />
       <div>
         <TitleText
@@ -26,11 +26,10 @@ export default function Architecture() {
         />
         <OurExperience />
       </div>
-      <Navbar />
-      <Projects/>
+      <Projects />
       <Partners />
       <Certificate />
-      <MapComponent/>
+      <MapComponent />
     </div>
   );
 }
