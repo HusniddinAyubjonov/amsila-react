@@ -8,9 +8,6 @@ import textImg from "../../shared/icon/architectureTxt.svg";
 import OurExperience from "../../shared/ui/OurExperience/OurExperience";
 import MapComponent from "../../shared/ui/map/Map";
 import Projects from "../../Companents/projectsArchArray/Projects";
-import ContinueForProjects from "../../shared/ui/continueForProjects/continueForProjects";
-import TitleForProjects from "../../shared/ui/TitleForProjects/TitleForProjects";
-import TitleForProjectsSecond from "../../shared/ui/TitleForProjectsSecond/TitleForProjectsSecond";
 
 export default function Architecture() {
   return (

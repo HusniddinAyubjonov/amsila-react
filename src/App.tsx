@@ -6,6 +6,9 @@ import Load from "./Load";
 const Home = lazy(() => import("./pages/home/Home"));
 const Architecture = lazy(() => import("./pages/architecture/Architecture"));
 const Product = lazy(() => import("./pages/poduct/Product"));
+const BanquetHouse = lazy(
+  () => import("./pages/architectureProjects/banquethouse/BanquetHouse")
+);
 
 export default function App() {
   return (
@@ -15,6 +18,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/architecture" element={<Architecture />} />
           <Route path="/product" element={<Product />} />
+          <Route path="/Banquet-House" element={<BanquetHouse />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

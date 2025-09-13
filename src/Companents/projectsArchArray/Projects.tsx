@@ -12,7 +12,7 @@ export default function Projects() {
     {
       bgUrl: "/src/assets/images/architecture/bannerArch.jpg",
       text: "Банкетный дом",
-      hrefTo: "/architecture/projects/1",
+      hrefTo: "/Banquet-House",
     },
     {
       bgUrl: "/src/assets/images/architecture/bannerArch.jpg",

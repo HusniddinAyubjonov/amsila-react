@@ -3,6 +3,7 @@
 .TitleForProjectsTxt {
   display: flex;
   justify-content: space-between;
+  margin-top: 80px;
 }
 
 .TitleForProjectsTxt h1 {
@@ -26,6 +27,10 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .TitleForProjectsTxt {
+    margin-top: 60px;
+  }
+
   .TitleForProjectsTxt h1 {
     width: 55%;
     font-size: 18px;
@@ -38,6 +43,10 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  .TitleForProjectsTxt {
+    margin-top: 40px;
+  }
+
   .TitleForProjectsTxt {
     flex-direction: column;
   }
@@ -55,6 +64,10 @@
 }
 
 @media (max-width: 480px) {
+  .TitleForProjectsTxt {
+    margin-top: 40px;
+  }
+
   .TitleForProjectsTxt {
     flex-direction: column;
   }
