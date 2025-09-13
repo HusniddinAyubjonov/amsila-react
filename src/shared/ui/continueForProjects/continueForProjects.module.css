@@ -1,0 +1,88 @@
+@import url("/src/index.css");
+
+.continueTxt h1 {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
+}
+
+.continueProject {
+  position: relative;
+}
+
+.continueProject img {
+  width: 552px;
+  height: auto;
+  position: relative;
+  border-radius: 32px;
+}
+
+.continueProject h1 {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #fff;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .continueTxt h1 {
+    font-size: 44px;
+    margin-bottom: 28px;
+  }
+
+  .continueProject img {
+    width: 435px;
+  }
+
+  .continueProject h1 {
+    font-size: 22px;
+    left: 30px;
+    bottom: 30px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .continueTxt h1 {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .continueProject img {
+    width: 282px;
+    border-radius: 24px;
+  }
+
+  .continueProject h1 {
+    font-size: 16px;
+    left: 20px;
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .continueTxt h1 {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .continueProject img {
+    width: 282px;
+    border-radius: 24px;
+  }
+
+  .continueProject h1 {
+    font-size: 16px;
+    left: 20px;
+    bottom: 20px;
+  }
+}
