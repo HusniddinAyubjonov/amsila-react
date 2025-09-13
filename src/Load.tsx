@@ -1,4 +1,4 @@
-import { BeatLoader, FadeLoader } from "react-spinners";
+import { FadeLoader } from "react-spinners";
 
 export default function Load() {
   return (
@@ -17,20 +17,6 @@ export default function Load() {
       }}
     >
       <FadeLoader color="#336667" height={10} width={3} margin={2} />
-      <h1
-        style={{
-          textAlign: "center",
-          marginTop: "16px",
-          fontSize: "20px",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: "8px",
-          color: "#336667",
-        }}
-      >
-        Loading <BeatLoader color="#336667" size={6} />
-      </h1>
     </div>
   );
 }
