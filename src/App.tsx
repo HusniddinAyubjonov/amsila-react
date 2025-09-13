@@ -6,6 +6,10 @@ import Load from "./Load";
 const Home = lazy(() => import("./pages/home/Home"));
 const Architecture = lazy(() => import("./pages/architecture/Architecture"));
 const Product = lazy(() => import("./pages/poduct/Product"));
+const Modelling = lazy(() => import("./pages/modelling/Modelling"));
+const Academy = lazy(() => import("./pages/academy/Academy"));
+//
+
 const BanquetHouse = lazy(
   () => import("./pages/architectureProjects/banquethouse/BanquetHouse")
 );
@@ -18,6 +22,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/architecture" element={<Architecture />} />
           <Route path="/product" element={<Product />} />
+          <Route path="/modelling" element={<Modelling />} />
+          <Route path="/academy" element={<Academy />} />
           <Route path="/Banquet-House" element={<BanquetHouse />} />
         </Routes>
       </Suspense>

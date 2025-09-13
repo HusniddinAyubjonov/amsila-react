@@ -1,0 +1,110 @@
+@import url("/src/index.css");
+@import url("/src/shared/ui/banners/banners.module.css");
+
+.banner {
+  background-position: center center;
+}
+
+.OurMission {
+  margin-top: 80px;
+}
+
+.OurMission h1 {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+
+.OurMission span {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  margin-top: 24px;
+}
+
+.OurMission span img {
+  width: 352px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .banner {
+    height: 480px;
+    background-position: center center;
+  }
+
+  .OurMission {
+    margin-top: 54px;
+  }
+
+  .OurMission h1 {
+    font-size: 44px;
+  }
+
+  .OurMission span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  .OurMission span img {
+    width: 282px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .banner {
+    height: 480px;
+    background-position: center center;
+  }
+
+  .OurMission {
+    margin-top: 40px;
+  }
+
+  .OurMission h1 {
+    font-size: 36px;
+  }
+
+  .OurMission span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .OurMission span img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    height: 480px;
+    background-position: center center;
+  }
+
+  
+
+  .OurMission {
+    margin-top: 40px;
+  }
+
+  .OurMission h1 {
+    font-size: 36px;
+  }
+
+  .OurMission span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .OurMission span img {
+    width: 100%;
+  }
+}
