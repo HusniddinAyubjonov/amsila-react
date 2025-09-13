@@ -7,10 +7,10 @@ import Certificate from "../../shared/ui/certificates/Certificate";
 import MapComponent from "../../shared/ui/map/Map";
 import banner from "../../assets/images/product/bannerProduct.jpg";
 import textImg from "../../shared/icon/productTxt.svg";
-import OutdoorAdvertisingCarousel from "./swiper/OutdoorAdvertisingCarousel";
-import PrintingBranding from "./swiper2/PrintingBranding";
-import Posm from "./swiper3/Posm";
-import Expo from "./swiper4/Expo";
+import OutdoorAdvertisingCarousel from "../../Companents/swiper/OutdoorAdvertisingCarousel";
+import PrintingBranding from "../../Companents/swiper2/PrintingBranding";
+import Posm from "../../Companents/swiper3/Posm";
+import Expo from "../../Companents/swiper4/Expo";
 
 export default function Product() {
   return (

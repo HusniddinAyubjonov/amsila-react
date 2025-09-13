@@ -62,7 +62,7 @@ const MapComponent: React.FC = () => {
         <TileLayer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png" />
         <Marker position={position} icon={customIcon}>
           <Popup>
-            г. Душанбе, ул. Абдуллабекова, 23
+            г. Душанбе, ул. Абдуллабекова, 5
             <br />
             Почтовый индекс: 734000
           </Popup>

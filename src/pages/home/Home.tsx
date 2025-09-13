@@ -3,9 +3,9 @@ import MapComponent from "../../shared/ui/map/Map";
 import Navbar from "../../shared/ui/navbar/Navbar";
 import Partners from "../../shared/ui/partners/Partners";
 import TitleText from "../../shared/ui/titleText/TitleText";
-import Header from "./header/Header";
-import Slider from "./slider/Slider";
-import Team from "./team/Team";
+import Header from "../../Companents/headerHomePage/Header";
+import Slider from "../../Companents/sliderHome/Slider";
+import Team from "../../Companents/teamHome/Team";
 
 export default function Home() {
   return (

@@ -4,31 +4,31 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 
 // Импортируем SVG-иконки
-import prevBtn from "../../../assets/icon/prevBtn.svg";
-import nextBtn from "../../../assets/icon/nextBtn.svg";
+import prevBtn from "../../assets/icon/prevBtn.svg";
+import nextBtn from "../../assets/icon/nextBtn.svg";
 
 // Импортируем изображения
-import img1 from "../../../assets/images/product/printing_branding/1.png";
-import img2 from "../../../assets/images/product/printing_branding/2.png";
-import img3 from "../../../assets/images/product/printing_branding/3.png";
-import img4 from "../../../assets/images/product/printing_branding/4.png";
-import img5 from "../../../assets/images/product/printing_branding/5.png";
-import img6 from "../../../assets/images/product/printing_branding/6.png";
-import img7 from "../../../assets/images/product/printing_branding/7.png";
-import img8 from "../../../assets/images/product/printing_branding/8.png";
-import img9 from "../../../assets/images/product/printing_branding/9.png";
-import img10 from "../../../assets/images/product/printing_branding/10.png";
-import img11 from "../../../assets/images/product/printing_branding/11.png";
-import img12 from "../../../assets/images/product/printing_branding/12.png";
-import img13 from "../../../assets/images/product/printing_branding/13.png";
-import img14 from "../../../assets/images/product/printing_branding/14.png";
-import img15 from "../../../assets/images/product/printing_branding/15.png";
-import img16 from "../../../assets/images/product/printing_branding/16.png";
-import img17 from "../../../assets/images/product/printing_branding/17.png";
-import img18 from "../../../assets/images/product/printing_branding/18.png";
-import img19 from "../../../assets/images/product/printing_branding/19.png";
-import img20 from "../../../assets/images/product/printing_branding/20.png";
-import img21 from "../../../assets/images/product/printing_branding/21.png";
+import img1 from "../../assets/images/product/printing_branding/1.png";
+import img2 from "../../assets/images/product/printing_branding/2.png";
+import img3 from "../../assets/images/product/printing_branding/3.png";
+import img4 from "../../assets/images/product/printing_branding/4.png";
+import img5 from "../../assets/images/product/printing_branding/5.png";
+import img6 from "../../assets/images/product/printing_branding/6.png";
+import img7 from "../../assets/images/product/printing_branding/7.png";
+import img8 from "../../assets/images/product/printing_branding/8.png";
+import img9 from "../../assets/images/product/printing_branding/9.png";
+import img10 from "../../assets/images/product/printing_branding/10.png";
+import img11 from "../../assets/images/product/printing_branding/11.png";
+import img12 from "../../assets/images/product/printing_branding/12.png";
+import img13 from "../../assets/images/product/printing_branding/13.png";
+import img14 from "../../assets/images/product/printing_branding/14.png";
+import img15 from "../../assets/images/product/printing_branding/15.png";
+import img16 from "../../assets/images/product/printing_branding/16.png";
+import img17 from "../../assets/images/product/printing_branding/17.png";
+import img18 from "../../assets/images/product/printing_branding/18.png";
+import img19 from "../../assets/images/product/printing_branding/19.png";
+import img20 from "../../assets/images/product/printing_branding/20.png";
+import img21 from "../../assets/images/product/printing_branding/21.png";
 
 import styles from "./PrintingBranding.module.css";
 
@@ -101,7 +101,6 @@ const PrintingBranding: React.FC = () => {
             swiperRef.current = swiper;
             console.log("✅ Swiper instance saved:", swiper);
           }}
-
           modules={[Pagination]}
           spaceBetween={24}
           slidesPerView={"auto"}

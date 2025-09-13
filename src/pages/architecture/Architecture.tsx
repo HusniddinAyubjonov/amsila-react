@@ -7,7 +7,7 @@ import banner from "../../assets/images/architecture/bannerArch.jpg";
 import textImg from "../../shared/icon/architectureTxt.svg";
 import OurExperience from "../../shared/ui/OurExperience/OurExperience";
 import MapComponent from "../../shared/ui/map/Map";
-import Projects from "./projects/Projects";
+import Projects from "../../Companents/projectsArchArray/Projects";
 
 export default function Architecture() {
   return (

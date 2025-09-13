@@ -4,21 +4,21 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 
 // Импортируем SVG-иконки
-import prevBtn from "../../../assets/icon/prevBtn.svg";
-import nextBtn from "../../../assets/icon/nextBtn.svg";
+import prevBtn from "../../assets/icon/prevBtn.svg";
+import nextBtn from "../../assets/icon/nextBtn.svg"
 
 // Импортируем изображения
-import img1 from "../../../assets/images/product/posm/1.png";
-import img2 from "../../../assets/images/product/posm/2.png";
-import img3 from "../../../assets/images/product/posm/3.png";
-import img4 from "../../../assets/images/product/posm/4-2.png";
-import img5 from "../../../assets/images/product/posm/5.png";
-import img6 from "../../../assets/images/product/posm/6.png";
-import img7 from "../../../assets/images/product/posm/7.png";
-import img8 from "../../../assets/images/product/posm/8.png";
-import img9 from "../../../assets/images/product/posm/9.png";
-import img10 from "../../../assets/images/product/posm/10.png";
-import img11 from "../../../assets/images/product/posm/11.png";
+import img1 from "../../assets/images/product/posm/1.png";
+import img2 from "../../assets/images/product/posm/2.png";
+import img3 from "../../assets/images/product/posm/3.png";
+import img4 from "../../assets/images/product/posm/4-2.png";
+import img5 from "../../assets/images/product/posm/5.png";
+import img6 from "../../assets/images/product/posm/6.png";
+import img7 from "../../assets/images/product/posm/7.png";
+import img8 from "../../assets/images/product/posm/8.png";
+import img9 from "../../assets/images/product/posm/9.png";
+import img10 from "../../assets/images/product/posm/10.png";
+import img11 from "../../assets/images/product/posm/11.png";
 
 import styles from "./Posm.module.css";
 

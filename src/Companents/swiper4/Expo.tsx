@@ -4,13 +4,13 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 
 // Импортируем SVG-иконки
-import prevBtn from "../../../assets/icon/prevBtn.svg";
-import nextBtn from "../../../assets/icon/nextBtn.svg";
+import prevBtn from "../../assets/icon/prevBtn.svg";
+import nextBtn from "../../assets/icon/nextBtn.svg";
 
 // Импортируем изображения
-import img1 from "../../../assets/images/product/expo/1.jpg";
-import img2 from "../../../assets/images/product/expo/2.png";
-import img3 from "../../../assets/images/product/expo/3.png";
+import img1 from "../../assets/images/product/expo/1.jpg"
+import img2 from "../../assets/images/product/expo/2.jpg";
+import img3 from "../../assets/images/product/expo/3.jpg";
 
 import styles from "./Expo.module.css";
 

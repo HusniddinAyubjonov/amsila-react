@@ -4,31 +4,31 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css"; // Общий CSS Swiper
 
 // Импортируем SVG-иконки
-import prevBtn from "../../../assets/icon/prevBtn.svg";
-import nextBtn from "../../../assets/icon/nextBtn.svg";
+import prevBtn from "../../assets/icon/prevBtn.svg";
+import nextBtn from "../../assets/icon/nextBtn.svg"
 
 // Импортируем все изображения как модули
-import img1 from "../../../assets/images/product/outdoor_advertising/1.png";
-import img2 from "../../../assets/images/product/outdoor_advertising/2.png";
-import img3 from "../../../assets/images/product/outdoor_advertising/3.png";
-import img4 from "../../../assets/images/product/outdoor_advertising/4.png";
-import img5 from "../../../assets/images/product/outdoor_advertising/5.png";
-import img6 from "../../../assets/images/product/outdoor_advertising/6.png";
-import img7 from "../../../assets/images/product/outdoor_advertising/7.png";
-import img8 from "../../../assets/images/product/outdoor_advertising/8.png";
-import img9 from "../../../assets/images/product/outdoor_advertising/9.png";
-import img10 from "../../../assets/images/product/outdoor_advertising/10.png";
-import img11 from "../../../assets/images/product/outdoor_advertising/11.png";
-import img12 from "../../../assets/images/product/outdoor_advertising/12.png";
-import img13 from "../../../assets/images/product/outdoor_advertising/13.png";
-import img14 from "../../../assets/images/product/outdoor_advertising/14.png";
-import img15 from "../../../assets/images/product/outdoor_advertising/15.png";
-import img16 from "../../../assets/images/product/outdoor_advertising/16.png";
-import img17 from "../../../assets/images/product/outdoor_advertising/17.png";
-import img18 from "../../../assets/images/product/outdoor_advertising/18.png";
-import img19 from "../../../assets/images/product/outdoor_advertising/19-2.png";
-import img20 from "../../../assets/images/product/outdoor_advertising/20.png";
-import img21 from "../../../assets/images/product/outdoor_advertising/21.png";
+import img1 from "../../assets/images/product/outdoor_advertising/1.png";
+import img2 from "../../assets/images/product/outdoor_advertising/2.png";
+import img3 from "../../assets/images/product/outdoor_advertising/3.png";
+import img4 from "../../assets/images/product/outdoor_advertising/4.png";
+import img5 from "../../assets/images/product/outdoor_advertising/5.png";
+import img6 from "../../assets/images/product/outdoor_advertising/6.png";
+import img7 from "../../assets/images/product/outdoor_advertising/7.png";
+import img8 from "../../assets/images/product/outdoor_advertising/8.png";
+import img9 from "../../assets/images/product/outdoor_advertising/9.png";
+import img10 from "../../assets/images/product/outdoor_advertising/10.png";
+import img11 from "../../assets/images/product/outdoor_advertising/11.png";
+import img12 from "../../assets/images/product/outdoor_advertising/12.png";
+import img13 from "../../assets/images/product/outdoor_advertising/13.png";
+import img14 from "../../assets/images/product/outdoor_advertising/14.png";
+import img15 from "../../assets/images/product/outdoor_advertising/15.png";
+import img16 from "../../assets/images/product/outdoor_advertising/16.png";
+import img17 from "../../assets/images/product/outdoor_advertising/17.png";
+import img18 from "../../assets/images/product/outdoor_advertising/18.png";
+import img19 from "../../assets/images/product/outdoor_advertising/19-2.png";
+import img20 from "../../assets/images/product/outdoor_advertising/20.png";
+import img21 from "../../assets/images/product/outdoor_advertising/21.png";
 
 // Импортируем CSS Modules
 import styles from "./OutdoorAdvertisingCarousel.module.css";
